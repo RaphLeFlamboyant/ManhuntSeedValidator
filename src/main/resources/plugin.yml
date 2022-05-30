@@ -1,0 +1,8 @@
+name: ManhuntSeedValidator
+version: '${project.version}'
+main: me.flamboyant.manhunt.seed_validator.Main
+api-version: 1.18
+commands:
+  f_check_seed:
+    description: Check the seed
+    permission: f_check_seed.use
